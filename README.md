@@ -1,5 +1,7 @@
 # Ghost Networks MCP Server
 
+**Private, Programmable Networking for the AI Age.**
+
 Manage your [Ghost Networks](https://gh-o.net) private mesh (WireGuard-grade encryption) from any MCP client — Claude, Cursor, Codex, Gemini, Windsurf and others. Create networks, add and revoke devices, organize Phantom Hubs, issue Helbind Keys and BiFrost Passes, run Ghost VPN servers and route traffic through exit nodes, all in natural language.
 
 The MCP server is built into the Ghost CLI (`ghost-cli mcp`): a single signed binary, no runtime or extra packages.
