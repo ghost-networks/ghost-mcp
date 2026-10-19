@@ -14,7 +14,7 @@ A Ghost Networks **Enterprise** plan (CLI, or CLI, API & VPN Server) and its API
 
 ### Option 1 — MCP bundle (`.mcpb`)
 
-Download the bundle for your platform from the [latest release](https://github.com/habloapp/ghost-mcp/releases/latest), open it in your MCP client (e.g. Claude Desktop) and paste your API key when asked.
+Download the bundle for your platform from the [latest release](https://github.com/ghost-networks/ghost-mcp/releases/latest), open it in your MCP client (e.g. Claude Desktop) and paste your API key when asked.
 
 ### Option 2 — Ghost CLI
 
