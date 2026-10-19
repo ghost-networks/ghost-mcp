@@ -1,6 +1,6 @@
 {
   "name": "ghost",
-  "version": "0.40.0",
+  "version": "0.41.0",
   "description": "Manage your Ghost Networks private mesh from Claude Code: networks, devices, Phantom Hubs, Helbind Keys, BiFrost Passes, Ghost VPN and exit nodes.",
   "author": {
     "name": "HabloApp Inc",

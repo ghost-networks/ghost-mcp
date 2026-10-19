@@ -2,7 +2,7 @@
 # Used by Glama's health check (it must start and answer MCP introspection).
 # tools/list works without a key; real calls need GHOST_API_KEY (Enterprise).
 FROM debian:bookworm-slim
-ARG GHOST_CLI_VERSION=0.40.0
+ARG GHOST_CLI_VERSION=0.41.0
 ARG TARGETARCH
 RUN apt-get update && apt-get install -y --no-install-recommends ca-certificates curl \
  && ARCH=$([ "$TARGETARCH" = "arm64" ] && echo linux-arm64 || echo linux-x64) \

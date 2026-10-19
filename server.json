@@ -3,7 +3,7 @@
   "name": "net.gh-o/ghost-mcp",
   "title": "Ghost Networks",
   "description": "Private, programmable networking for the AI age: manage networks, devices, hubs and VPN.",
-  "version": "0.40.0",
+  "version": "0.41.0",
   "websiteUrl": "https://gh-o.net",
   "repository": {
     "url": "https://github.com/ghost-networks/ghost-mcp",
@@ -12,8 +12,8 @@
   "packages": [
     {
       "registryType": "mcpb",
-      "identifier": "https://github.com/ghost-networks/ghost-mcp/releases/download/v0.40.0/ghost-mcp-macos-v0.40.0.mcpb",
-      "fileSha256": "9b808f30fa3ccfd138c7ec91ec7f5814128d8dd333f3c874c8b1cb896fc98eb1",
+      "identifier": "https://github.com/ghost-networks/ghost-mcp/releases/download/v0.41.0/ghost-mcp-macos-v0.41.0.mcpb",
+      "fileSha256": "f06eee257bd76015775ffffaf4adf407a5df08459510504dde96ecf656f59b28",
       "transport": {
         "type": "stdio"
       },
@@ -28,8 +28,8 @@
     },
     {
       "registryType": "mcpb",
-      "identifier": "https://github.com/ghost-networks/ghost-mcp/releases/download/v0.40.0/ghost-mcp-linux-x64-v0.40.0.mcpb",
-      "fileSha256": "d9e6735a2ffea89ba4e4cd7f950073e54f046be39580e0bf2708a71511e48709",
+      "identifier": "https://github.com/ghost-networks/ghost-mcp/releases/download/v0.41.0/ghost-mcp-linux-x64-v0.41.0.mcpb",
+      "fileSha256": "00cd7d2bd4e5cdf18252a85e727e77310536ca45b3adb1a8013b98dd1aac9b31",
       "transport": {
         "type": "stdio"
       },
@@ -44,8 +44,8 @@
     },
     {
       "registryType": "mcpb",
-      "identifier": "https://github.com/ghost-networks/ghost-mcp/releases/download/v0.40.0/ghost-mcp-linux-arm64-v0.40.0.mcpb",
-      "fileSha256": "103e099546cf5df7d5b019dfb8f19ad65dbc615288958e23a3ea767be79be439",
+      "identifier": "https://github.com/ghost-networks/ghost-mcp/releases/download/v0.41.0/ghost-mcp-linux-arm64-v0.41.0.mcpb",
+      "fileSha256": "283eb5c83ee59068c51152b6391954948340e3645a0669097728afd0a7214d18",
       "transport": {
         "type": "stdio"
       },
@@ -60,8 +60,8 @@
     },
     {
       "registryType": "mcpb",
-      "identifier": "https://github.com/ghost-networks/ghost-mcp/releases/download/v0.40.0/ghost-mcp-windows-x64-v0.40.0.mcpb",
-      "fileSha256": "cbda9bdcc9d950e0f9692ce206c755a68e61d9b246e68e4f4bc1b1b5c6b5a3cb",
+      "identifier": "https://github.com/ghost-networks/ghost-mcp/releases/download/v0.41.0/ghost-mcp-windows-x64-v0.41.0.mcpb",
+      "fileSha256": "7189b58d48200fbf90ea4d98ba74b23d62ff99e4832b6d990a7786d423e6642a",
       "transport": {
         "type": "stdio"
       },
