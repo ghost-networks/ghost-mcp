@@ -1,6 +1,6 @@
 {
   "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
-  "name": "io.github.ghost-networks/ghost-mcp",
+  "name": "net.gh-o/ghost-mcp",
   "title": "Ghost Networks",
   "description": "Private, programmable networking for the AI age: manage networks, devices, hubs and VPN.",
   "version": "0.40.0",
