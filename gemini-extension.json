@@ -1,0 +1,19 @@
+{
+  "name": "ghost",
+  "version": "0.40.0",
+  "description": "Manage your Ghost Networks private mesh: networks, devices, Phantom Hubs, Helbind Keys, BiFrost Passes, Ghost VPN and exit nodes.",
+  "mcpServers": {
+    "ghost": {
+      "command": "ghost-cli",
+      "args": ["mcp"]
+    }
+  },
+  "settings": [
+    {
+      "name": "API key",
+      "description": "Your Ghost Networks Enterprise API key (gh-o.net/pricing).",
+      "envVar": "GHOST_API_KEY",
+      "sensitive": true
+    }
+  ]
+}

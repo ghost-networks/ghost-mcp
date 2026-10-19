@@ -1,0 +1,15 @@
+{
+  "name": "ghost-networks",
+  "description": "Ghost Networks plugins for Claude Code.",
+  "owner": {
+    "name": "HabloApp Inc",
+    "url": "https://gh-o.net"
+  },
+  "plugins": [
+    {
+      "name": "ghost",
+      "source": "./plugins/ghost",
+      "description": "Manage your Ghost Networks private mesh from Claude Code: networks, devices, Phantom Hubs, Helbind Keys, BiFrost Passes, Ghost VPN and exit nodes."
+    }
+  ]
+}

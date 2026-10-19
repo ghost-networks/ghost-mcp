@@ -1,0 +1,11 @@
+{
+  "mcpServers": {
+    "ghost": {
+      "command": "ghost-cli",
+      "args": ["mcp"],
+      "env": {
+        "GHOST_API_KEY": "${GHOST_API_KEY:-}"
+      }
+    }
+  }
+}

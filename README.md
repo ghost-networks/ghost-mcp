@@ -12,11 +12,7 @@ A Ghost Networks **Enterprise** plan (CLI, or CLI, API & VPN Server) and its API
 
 ## Install
 
-### Option 1 — MCP bundle (`.mcpb`)
-
-Download the bundle for your platform from the [latest release](https://github.com/ghost-networks/ghost-mcp/releases/latest), open it in your MCP client (e.g. Claude Desktop) and paste your API key when asked.
-
-### Option 2 — Ghost CLI
+**1. Install the Ghost CLI** (it contains the MCP server). Skip this step if you use the `.mcpb` bundle.
 
 macOS / Linux:
 
@@ -32,7 +28,20 @@ Windows (PowerShell as Administrator):
 irm https://gh-o.net/d/cli/install.ps1 | iex
 ```
 
-Then add the server to your MCP client configuration:
+**2. Add it to your client:**
+
+[![Install in Cursor](https://cursor.com/deeplink/mcp-install-dark.svg)](https://cursor.com/en/install-mcp?name=ghost&config=eyJjb21tYW5kIjoiZ2hvc3QtY2xpIiwiYXJncyI6WyJtY3AiXSwiZW52Ijp7IkdIT1NUX0FQSV9LRVkiOiI8eW91ci1hcGkta2V5PiJ9fQ%3D%3D) [![Install in VS Code](https://img.shields.io/badge/VS_Code-Install_Server-0098FF?style=flat-square&logo=visualstudiocode&logoColor=white)](https://vscode.dev/redirect/mcp/install?name=ghost&inputs=%5B%7B%22id%22%3A%22ghost_api_key%22%2C%22type%22%3A%22promptString%22%2C%22description%22%3A%22Ghost%20Networks%20API%20key%22%2C%22password%22%3Atrue%7D%5D&config=%7B%22command%22%3A%22ghost-cli%22%2C%22args%22%3A%5B%22mcp%22%5D%2C%22env%22%3A%7B%22GHOST_API_KEY%22%3A%22%24%7Binput%3Aghost_api_key%7D%22%7D%7D)
+
+| Client | How |
+|---|---|
+| Claude Desktop | Download the `.mcpb` bundle for your platform from the [latest release](https://github.com/ghost-networks/ghost-mcp/releases/latest), open it and paste your API key. No CLI needed. |
+| Claude Code (plugin) | `/plugin install ghost --marketplace ghost-networks/ghost-mcp` (with `GHOST_API_KEY` set in your shell, or after `ghost-cli init <your-api-key>`) |
+| Claude Code (CLI) | `claude mcp add ghost -e GHOST_API_KEY=<your-api-key> -- ghost-cli mcp` |
+| Codex | `codex mcp add ghost --env GHOST_API_KEY=<your-api-key> -- ghost-cli mcp` |
+| Gemini CLI | `gemini extensions install https://github.com/ghost-networks/ghost-mcp` (asks for your API key) |
+| Cursor | Button above, then replace `<your-api-key>` |
+| VS Code | Button above (asks for your API key) |
+| Windsurf and others | Add the JSON below to the client's MCP configuration |
 
 ```json
 {
